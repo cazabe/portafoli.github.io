@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Agregar el favicon desde una imagen -->
+        <link rel="shortcut icon" type="image/jpg" href="../img/logoPorttransparent.png"/>
+        <title>Cazabe Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="../css/styles.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="../img/logoPorttransparent.png" alt="logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My projects</a></li>
+                    <li class="nav__item"><a href="../index.html" class="nav__link">Translate to spanish</a></li>
+                </ul>
+            </nav>
+        </header>        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+               Hello, I'm <strong>Carlos Zavala</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full-Stack dev</p>
+            <img src="" alt="a picture" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">My services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Front-End</h3>
+                    <p class="align">I develop user interface using html5, css, js. I make static web pages, web applications; making them responsive and using new technologies like React.
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Back-End</h3>
+                    <p class="align">Development of business logic, database and general operation of applications, whether web or mobile, for this I work with technologies such as the MERN stack, Fire base and a little php. In database I manage MysQl and mongo.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Movil</h3>
+                    <p class="align">I also develop mobile applications with React Native, applying the reuse of code for ios and andorid.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My projects</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">A little bit about myself</h2>
+           <p class="section__subtitle section__subtitle--about">full-stack Developer</p>
+           
+           <div class="about-me__body">
+               <p>First I would like to start by telling a bit of my story in the world of programming. I started programming as a hobby and a way to get a new skill that will help me in my professional development, I went from being just an outlet to get a job and become my passion, something that I really love.</p>
+               <p>I am a self-taught programmer, I educate myself to learn what I like and even though I know I have a long way to go I am happy with how little I have achieved even though for me it is a lot. I am passionate about learning new things and applying them in personal projects. At the bottom you can find some of my work.</p>
+           </div>
+           
+           <img src="./img/contabilidad.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My projects</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my projects</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="englishPages/portafolioproyect1.html" class="portfolio__item">
+                    <img src="../img/barriolindo.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="englishPages/portafolioproyect2.html"  class="portfolio__item">
+                    <img src="../img/barriolindo.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="englishPages/portafolioproyect3.html" class="portfolio__item">
+                    <img src="../img/barriolindo.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="englishPages/portafolioproyect4.html" class="portfolio__item">
+                    <img src="../img/barriolindo.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="englishPages/portafolioproyect5.html" class="portfolio__item">
+                    <img src="../img/barriolindo.png" alt="" class="portfolio__img">
+                </a>
+                
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:cazcarlos@hotmail.com" class="footer__link">cazcarlos@hotmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/cazabe-the-bold" target="_blank">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/cazabe" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/carlos-zavala-benavides-9ab168182" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="../js/index.js"></script>
+        
+    </body>
+</html>
