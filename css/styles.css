@@ -514,3 +514,13 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
     background-color: #329ad1;
 }
+
+/*links styles*/
+.linkProjects{
+   text-decoration: none; 
+   color: #e96b27; 
+}
+
+.projectExplain{
+    font-family: 'IM Fell French Canon SC', serif;
+}
